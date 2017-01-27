@@ -1,0 +1,44 @@
+.card {
+ font-family: Noto Sans CJK TC Regular;
+ font-size: 30px;
+ text-align: center;
+ color: black;
+background: url(sayagata.png);
+}
+.front{
+color:white;
+background:#4B4C4F;
+border-radius: 15px 15px 0 0;
+}
+.back{
+background:#4B4C4F;
+color:#24E260;
+border-radius: 0 0 15px 15px;
+}
+.jp { 
+ font-size: 30px;
+ }
+.win .jp { font-family: "A-OTF Ryumin Pr5 M-KL"; } /*change your font here*/
+.mac .jp { font-family: "Hiragino Mincho Pro", "ヒラギノ明朝 Pro"; }
+.linux .jp { font-family: "Kochi Mincho", "東風明朝"; }
+.mobile .jp { font-family: "Hiragino Mincho ProN"; }
+.title {}
+.tag { 
+font-size: 15px;
+color:red;
+}
+.meaning 
+{
+align-content:left;
+color:#2279D6;
+font-size: 25px;
+}
+.example
+{
+font-size: 20px;
+color:white
+}
+.playbutton
+{
+
+}
