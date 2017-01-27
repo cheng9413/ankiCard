@@ -1,0 +1,9 @@
+<div class = front>
+<div style="line-height:60%;">
+    <br>
+</div>
+<div class=jp> {{Expression}} </div>
+<div style="line-height:50%;">
+    <br>
+</div>
+</div>
