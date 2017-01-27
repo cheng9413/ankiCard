@@ -1,0 +1,46 @@
+{{FrontSide}}
+<div class = back
+<hr style="border: 1px solid white" id=answer>
+
+<div style="line-height:40%;"> <br></div>
+
+<div class=jp> {{furigana:Reading}} </div>
+<div align="left" class=tag> {{Audio}}<b>{{Tag}}</b> </div>
+<div class=meaning> {{Meaning}} </div>
+
+<div style="line-height:60%;"> <br></div>
+
+<div id="example" class=example align="left"> 
+<span id="eg">例：</span>
+{{Example}}  </div>
+
+<div id="related" class=example align="left"> 
+<span id="_related">関：</span>
+{{Related}} </div>
+
+<div id="synonym" class=example align="left"> 
+<span id="similar">類：</span>
+{{Synonym}} </div>
+
+<div id="antonymn" class=example align="left"> 
+<span id="opposite">対：</span>
+{{Antonym}}
+ </div>
+
+<div class=example align="left"> 
+<span id="phrase">慣用：</span>
+{{慣用}} 
+</div>
+
+<div style="line-height:60%;"> <br></div>
+
+<script>
+var fields = ["{{Example}}","{{Related}}","{{Synonym}}","{{Antonym}}","{{慣用}}"];
+var spanId = ["eg","_related","similar","opposite","phrase"]
+for(var i=0; i<fields.length;i++) {
+	if(fields[i]=="") {
+		document.getElementById(spanId[i]).style.display ="none";
+	}
+}
+</script>
+</div>
